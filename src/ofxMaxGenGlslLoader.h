@@ -16,21 +16,12 @@ public:
 class Shader : public ofShader
 {
 public:
-	union Uniform {
-		int i[4];
-		float f[4];
-		float mat[16];
-		int tex;
-	};
 	void load(const string &jxs);
 	void addReplaceString(const string &from, const string &to) {
 		replace_[from] = to;
 	}
 private:
 	map<string,string> replace_;
-	map<string,Uniform> uniform_;
-private:
-	void bindParam(const string &str);
 };
 
 
