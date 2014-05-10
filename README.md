@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ofxMaxGenGlslLoader
 by nariakiiwatani
 
@@ -16,9 +15,3 @@ ofxMaxGenGlslLoader::Shader shader;
 shader.load("gen_exported.jxs");
 
 As ofxMaxGenGlslLoader::Shader extends ofShader, you can use it as a normal ofShader.
-=======
-ofxMaxGenGlslLoader
-===================
-
-loading shader exported from jit.gl.pix
->>>>>>> 3a40c312fee03c1a982120d721a9527b9f8f1784
