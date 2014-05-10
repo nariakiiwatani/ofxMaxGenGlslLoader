@@ -8,6 +8,7 @@ It isn't tested enough, so please report an issue if somethign is wrong.
 ## Usage...
 ### Export shader code from jit.gl.pix
 send message "exportcode" to your jit.gl.pix
+
 notice: you have to export in jxs format.(not webgl)
 
 ### Load jxs
