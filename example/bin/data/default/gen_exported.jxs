@@ -1,0 +1,18 @@
+<jittershader name="jit.gen.jxs">
+	<description>
+		code generated JXS file
+	</description>
+ 
+	
+	
+	<param name="tin1" type="int" default="0" description="in1"/>
+	<param name="tin2" type="int" default="1" description="in2"/>
+	<language name="glsl" version="1.0">
+		
+		
+		<bind param="tin1" program="fp" />
+		<bind param="tin2" program="fp" />
+		<program name="vp" type="vertex" source="gen_exported.vp.glsl" />
+		<program name="fp" type="fragment" source="gen_exported.fp.glsl" />
+	</language>
+</jittershader>
